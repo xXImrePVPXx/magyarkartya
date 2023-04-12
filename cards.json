@@ -1,0 +1,194 @@
+[
+  {
+    "Nev" : "piros7",
+    "szin" : "p",
+    "szam" : "7",
+    "priority" : "8"
+  },
+    {
+    "Nev" : "piros8",
+    "szin" : "p",
+    "szam" : "8",
+    "priority" : "7"
+  },
+    {
+    "Nev" : "piros9",
+    "szin" : "p",
+    "szam" : "9",
+    "priority" : "6"
+  },
+    {
+    "Nev" : "piros10",
+    "szin" : "p",
+    "szam" : "10",
+    "priority" : "5"
+  },
+    {
+    "Nev" : "pirosa",
+    "szin" : "p",
+    "szam" : "11",
+    "priority" : "4"
+  },
+    {
+    "Nev" : "pirosf",
+    "szin" : "p",
+    "szam" : "12",
+    "priority" : "3"
+  },
+    {
+    "Nev" : "piroscs",
+    "szin" : "p",
+    "szam" : "13",
+    "priority" : "2"
+  },
+    {
+    "Nev" : "pirosasz",
+    "szin" : "p",
+    "szam" : "14",
+    "priority" : "1"
+  },
+    {
+    "Nev" : "zold7",
+    "szin" : "z",
+    "szam" : "7",
+    "priority" : "8"
+  },
+    {
+    "Nev" : "zold8",
+    "szin" : "z",
+    "szam" : "8",
+    "priority" : "7"
+  },
+    {
+    "Nev" : "zold9",
+    "szin" : "z",
+    "szam" : "9",
+    "priority" : "6"
+  },
+    {
+    "Nev" : "zold10",
+    "szin" : "z",
+    "szam" : "10",
+    "priority" : "5"
+  },
+    {
+    "Nev" : "zolda",
+    "szin" : "z",
+    "szam" : "11",
+    "priority" : "4"
+  },
+    {
+    "Nev" : "pirosf",
+    "szin" : "p",
+    "szam" : "12",
+    "priority" : "3"
+  },
+    {
+    "Nev" : "piroscs",
+    "szin" : "p",
+    "szam" : "13",
+    "priority" : "2"
+  },
+    {
+    "Nev" : "zoldasz",
+    "szin" : "z",
+    "szam" : "14",
+    "priority" : "1"
+  },
+    {
+    "Nev" : "tok7",
+    "szin" : "t",
+    "szam" : "7",
+    "priority" : "8"
+  },
+    {
+    "Nev" : "tok8",
+    "szin" : "t",
+    "szam" : "8",
+    "priority" : "7"
+  },
+    {
+    "Nev" : "tok9",
+    "szin" : "t",
+    "szam" : "9",
+    "priority" : "6"
+  },
+    {
+    "Nev" : "tok10",
+    "szin" : "t",
+    "szam" : "10",
+    "priority" : "5"
+  },
+    {
+    "Nev" : "toka",
+    "szin" : "t",
+    "szam" : "11",
+    "priority" : "4"
+  },
+    {
+    "Nev" : "tokf",
+    "szin" : "t",
+    "szam" : "12",
+    "priority" : "3"
+  },
+    {
+    "Nev" : "tokcs",
+    "szin" : "t",
+    "szam" : "13",
+    "priority" : "2"
+  },
+    {
+    "Nev" : "tokasz",
+    "szin" : "t",
+    "szam" : "14",
+    "priority" : "1"
+  },
+    {
+    "Nev" : "mak7",
+    "szin" : "m",
+    "szam" : "7",
+    "priority" : "8"
+  },
+    {
+    "Nev" : "mak8",
+    "szin" : "m",
+    "szam" : "8",
+    "priority" : "7"
+  },
+    {
+    "Nev" : "mak9",
+    "szin" : "m",
+    "szam" : "9",
+    "priority" : "6"
+  },
+    {
+    "Nev" : "mak10",
+    "szin" : "m",
+    "szam" : "10",
+    "priority" : "5"
+  },
+    {
+    "Nev" : "maka",
+    "szin" : "m",
+    "szam" : "11",
+    "priority" : "4"
+  },
+    {
+    "Nev" : "makf",
+    "szin" : "m",
+    "szam" : "12",
+    "priority" : "3"
+  },
+    {
+    "Nev" : "makcs",
+    "szin" : "m",
+    "szam" : "13",
+    "priority" : "2"
+  },
+    {
+    "Nev" : "makasz",
+    "szin" : "m",
+    "szam" : "14",
+    "priority" : "1"
+  }
+]
