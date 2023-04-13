@@ -1,10 +1,16 @@
 import pygame#ezzel csinaljuk majd a jatekot
+import json
 pygame.init()
 bg = pygame.image.load("letöltés.jpg")
 bg = pygame.transform.scale(bg, (1024, 512))
-
+with open("cards.json", "r", encoding="utf-8") as f:
+    cards = json.loadd(f)
 screen = pygame.display.set_mode([1024, 512])
-
+p1hand = []
+p1points = []
+p2hand =[]
+p2points = []
+deck = [f]
 running = True
 while running:
 
