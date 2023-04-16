@@ -3,8 +3,9 @@ import json
 pygame.init()
 bg = pygame.image.load("letöltés.jpg")
 bg = pygame.transform.scale(bg, (1024, 512))
+pygame.display.set_caption('Zsírozás')
 with open("cards.json", "r", encoding="utf-8") as f:
-    cards = json.loadd(f)
+    cards = json.load(f)
 screen = pygame.display.set_mode([1024, 512])
 p1hand = []
 p1points = []
@@ -20,6 +21,8 @@ while running:
 
     screen.fill((255, 255, 255,))
     screen.blit(bg, (0, 0))
+
+
 
     pygame.display.flip()
 
