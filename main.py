@@ -1,4 +1,4 @@
-import pygame#ezzel csinaljuk majd a jatekot
+import pygame #ezzel csinaljuk majd a jatekot
 import json
 from object import Kartya
 pygame.init()
