@@ -137,7 +137,6 @@ while aipont < 5 and p1pont < 5:
     if len(aih) < 4:
         aih = aih[:3] + pakli[:1]
         del pakli[:1]
-        print(aih)
 
 
     p1pont = 0
