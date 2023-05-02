@@ -43,6 +43,31 @@ aipont=0
 p1pont=0
 aiw = False
 
+print('Magyar Kártya:')
+print('ZSÍROZÁS')
+szab = input('Ismered a szabályokat?(Igen/Nem)')
+if szab == 'Nem':
+    print('Szabályok:')
+    print('Minden játékos 4 lappal kezd')
+    print('Az ászt és 10-est kell gyűjteni.')
+    print('Egy adott színre, ügyan azt a színt kell rakni.')
+    print('A hetes mindig üt.')
+    print('Aki ütött, az rak legközelebb.')
+    print('Aki hamarabb összegyűjti az 5 pontot, nyer.')
+    print('----------------------')
+elif szab == 'Igen':
+    print('Akkor kezdődjön a játék!')
+else:
+    print('Ezt egy Nemnek veszem.')
+    print('Szabályok:')
+    print('Minden játékos 4 lappal kezd')
+    print('Az ászt és 10-est kell gyűjteni.')
+    print('Egy adott színre, ügyan azt a színt kell rakni.')
+    print('A hetes mindig üt.')
+    print('Aki ütött, az rak legközelebb.')
+    print('Aki hamarabb összegyűjti az 5 pontot, nyer.')
+    print('----------------------')
+
 
 p1h = pakli[:4]
 print('Kártyáid:')
