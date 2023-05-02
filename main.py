@@ -74,7 +74,6 @@ print('Kártyáid:')
 print(*p1h)
 del pakli[:4]
 aih = pakli[:4]
-print(aih)
 del pakli[:4]
 while aipont < 5 and p1pont < 5:
     if aiw:
