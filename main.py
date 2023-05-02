@@ -1,36 +1,44 @@
-import pygame#ezzel csinaljuk majd a jatekot
-import json
-from object import Kartya
-pygame.init()
-bg = pygame.image.load("letöltés.jpg")
-bg = pygame.transform.scale(bg, (1024, 512))
-pygame.display.set_caption('Zsírozás')
-with open("cards.json", "r", encoding="utf-8") as f:
-    cards = json.load(f)
+import random
 
-ID = 1
-adat = cards[ID-1]
-#if adat["priority"] == 1 or adat["szin"] == self.szin
-screen = pygame.display.set_mode([1024, 512])
-p1hand = []
-p1points = []
-p2hand =[]
-p2points = []
-deck = [f]
-kard = Kartya(14, adat["Nev"], adat['szin'], adat['ertek'], adat['priority'], adat['kep'])
-print(kard)
-#running = True
-#while running:
-#
-#    for event in pygame.event.get():
-#        if event.type == pygame.QUIT:
-#            running = False
-#
-#    screen.fill((255, 255, 255,))
-#    screen.blit(bg, (0, 0))
-#    kard = Kartya(14, adat["Nev"], adat['szin'], adat['ertek'], adat['priority'], adat['kep'])
-#
-#
-#   pygame.display.flip()
-#
-#pygame.quit()
+class Kartya:
+    def __init__(self, sor):
+        id, nev, szin, ertek, priority = sor.split(';')
+        self.id = int(id)
+        self.nev = nev
+        self.szin = int(szin)
+        self.ertek = int(ertek)
+        self.priority = int(priority)
+
+    def __repr__(self):
+        return f'<ID: {self.id}, nev: {self.nev} >'
+
+cards = []
+with open('kartyak.txt', 'r', encoding='utf-8') as f:
+    for sor in f.read().splitlines()[1:]:
+        cards.append(Kartya(sor))
+p1h = []
+aih = []
+p1t = []
+ait = []
+pakli = []
+
+for i in range(10000):
+   r=random.randint(0,31)
+   if r not in pakli:
+      pakli.append(int(r))
+
+print(pakli)
+print(len(pakli))
+p1h = pakli[:4]
+print(p1h)
+del pakli[:4]
+print(pakli)
+aih = pakli[:4]
+print(aih)
+del pakli[:4]
+print(pakli)
+
+if len(p1h) != 4:
+    p1h = p1h[:3], pakli[:1]
+    print(p1h)
+
