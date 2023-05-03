@@ -54,6 +54,7 @@ if szab == 'Nem' or szab == 'nem' or szab == 'n' or szab == 'N':
     print('A hetes mindig üt.')
     print('Aki ütött, az rak legközelebb.')
     print('Aki hamarabb összegyűjti az 5 pontot, nyer.')
+    print('Irányítás: 1-4 vagy kevesebb számot kell beírni, hogy kiválasz egy kártyát.')
     print('----------------------')
 elif szab == 'Igen' or szab == 'igen' or szab == 'i' or szab == 'I':
     print('Akkor kezdődjön a játék!')
@@ -66,6 +67,7 @@ else:
     print('A hetes mindig üt.')
     print('Aki ütött, az rak legközelebb.')
     print('Aki hamarabb összegyűjti az 5 pontot, nyer.')
+    print('Irányítás: 1-4 vagy kevesebb számot kell beírni, hogy kiválasz egy kártyát.')
     print('----------------------')
 
 
